@@ -1,0 +1,250 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "babylon.js glTF exporter for 3ds max 2015 v1.3.8"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1
+      ],
+      "extensions": {}
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "translation": [
+        -5.766353,
+        -0.855742931,
+        -4.20031261
+      ],
+      "rotation": [
+        -1.58050728e-8,
+        -0.7071068,
+        0.7071068,
+        1.5805071e-8
+      ],
+      "scale": [
+        1.029025,
+        -1.029025,
+        1.029025
+      ],
+      "name": "CFM/engine_1"
+    },
+    {
+      "mesh": 1,
+      "translation": [
+        -6.34827,
+        -0.305187,
+        -1.782995
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.342020154,
+        0.9396926
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "name": "CFM/reverse_bucket_out_up_lh"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0
+        }
+      ],
+      "name": "CFM/engine_1"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
+          },
+          "indices": 4
+        }
+      ],
+      "name": "CFM/reverse_bucket_out_up_lh"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5123,
+      "count": 7788,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2237,
+      "max": [
+        0.987663746,
+        6.68214273,
+        1.05439758
+      ],
+      "min": [
+        -1.07903624,
+        -0.130791664,
+        -1.513107
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 26844,
+      "componentType": 5126,
+      "count": 2237,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2237,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 15576,
+      "componentType": 5123,
+      "count": 1110,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 53688,
+      "componentType": 5126,
+      "count": 414,
+      "max": [
+        0.461166382,
+        0.4812479,
+        0.18144989
+      ],
+      "min": [
+        -0.2414999,
+        -0.558634758,
+        -0.533930063
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 58656,
+      "componentType": 5126,
+      "count": 414,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 17896,
+      "componentType": 5126,
+      "count": 414,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 90,
+      "max": [
+        2.9666667
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR",
+      "name": "accessorAnimationInput"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 90,
+      "type": "VEC4",
+      "name": "accessorAnimationRotations"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 17796,
+      "name": "bufferViewScalar",
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 17796,
+      "byteLength": 63624,
+      "byteStride": 12,
+      "name": "bufferViewFloatVec3"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 81420,
+      "byteLength": 21208,
+      "byteStride": 8,
+      "name": "bufferViewFloatVec2"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 102628,
+      "byteLength": 360,
+      "name": "bufferViewAnimationFloatScalar"
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 102988,
+      "byteLength": 1440,
+      "name": "bufferViewAnimationFloatVec4"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "engine_rev_BB_noAnimOpt_data.bin",
+      "byteLength": 104428
+    }
+  ],
+  "animations": [
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 1,
+            "path": "rotation"
+          }
+        }
+      ],
+      "samplers": [
+        {
+          "input": 8,
+          "interpolation": "LINEAR",
+          "output": 9
+        }
+      ],
+      "name": "All Animations"
+    }
+  ]
+}
