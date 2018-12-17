@@ -1,0 +1,163 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "babylon.js glTF exporter for 3ds max 2015 v1.3.8"
+    },
+    "scene": 0,
+    "scenes": [{
+        "nodes": [0, 1],
+        "extensions": {}
+    }],
+    "nodes": [{
+        "mesh": 0,
+        "translation": [0.0, 0.0, 0.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0],
+        "name": "Box001"
+    }, {
+        "mesh": 1,
+        "translation": [0.0, 0.0, -10.0],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0],
+        "name": "Box002"
+    }],
+    "meshes": [{
+        "primitives": [{
+            "attributes": {
+                "POSITION": 1,
+                "NORMAL": 2,
+                "TEXCOORD_0": 3
+            },
+            "indices": 0
+        }],
+        "name": "Box001"
+    }, {
+        "primitives": [{
+            "attributes": {
+                "POSITION": 5,
+                "NORMAL": 6,
+                "TEXCOORD_0": 7
+            },
+            "indices": 4
+        }],
+        "name": "Box002"
+    }],
+    "accessors": [{
+        "bufferView": 0,
+        "componentType": 5123,
+        "count": 36,
+        "type": "SCALAR",
+        "name": "accessorIndices"
+    }, {
+        "bufferView": 1,
+        "componentType": 5126,
+        "count": 36,
+        "max": [5.0, 5.0, 5.0],
+        "min": [-5.0, -5.0, -5.0],
+        "type": "VEC3",
+        "name": "accessorPositions"
+    }, {
+        "bufferView": 1,
+        "byteOffset": 432,
+        "componentType": 5126,
+        "count": 36,
+        "type": "VEC3",
+        "name": "accessorNormals"
+    }, {
+        "bufferView": 2,
+        "componentType": 5126,
+        "count": 36,
+        "type": "VEC2",
+        "name": "accessorUVs"
+    }, {
+        "bufferView": 0,
+        "byteOffset": 72,
+        "componentType": 5123,
+        "count": 36,
+        "type": "SCALAR",
+        "name": "accessorIndices"
+    }, {
+        "bufferView": 1,
+        "byteOffset": 864,
+        "componentType": 5126,
+        "count": 36,
+        "max": [5.0, 5.0, 5.0],
+        "min": [-5.0, -5.0, -5.0],
+        "type": "VEC3",
+        "name": "accessorPositions"
+    }, {
+        "bufferView": 1,
+        "byteOffset": 1296,
+        "componentType": 5126,
+        "count": 36,
+        "type": "VEC3",
+        "name": "accessorNormals"
+    }, {
+        "bufferView": 2,
+        "byteOffset": 288,
+        "componentType": 5126,
+        "count": 36,
+        "type": "VEC2",
+        "name": "accessorUVs"
+    }, {
+        "bufferView": 3,
+        "componentType": 5126,
+        "count": 5,
+        "max": [2.9666667],
+        "min": [0.0],
+        "type": "SCALAR",
+        "name": "accessorAnimationInput"
+    }, {
+        "bufferView": 4,
+        "componentType": 5126,
+        "count": 5,
+        "type": "VEC4",
+        "name": "accessorAnimationRotations"
+    }],
+    "bufferViews": [{
+        "buffer": 0,
+        "byteLength": 144,
+        "name": "bufferViewScalar"
+    }, {
+        "buffer": 0,
+        "byteOffset": 144,
+        "byteLength": 1728,
+        "byteStride": 12,
+        "name": "bufferViewFloatVec3"
+    }, {
+        "buffer": 0,
+        "byteOffset": 1872,
+        "byteLength": 576,
+        "byteStride": 8,
+        "name": "bufferViewFloatVec2"
+    }, {
+        "buffer": 0,
+        "byteOffset": 2448,
+        "byteLength": 20,
+        "name": "bufferViewAnimationFloatScalar"
+    }, {
+        "buffer": 0,
+        "byteOffset": 2468,
+        "byteLength": 80,
+        "name": "bufferViewAnimationFloatVec4"
+    }],
+    "buffers": [{
+        "uri": "cube_rot_animOptimized_noAutoAnim2.bin",
+        "byteLength": 2548
+    }],
+    "animations": [{
+        "channels": [{
+            "sampler": 0,
+            "target": {
+                "node": 0,
+                "path": "rotation"
+            }
+        }],
+        "samplers": [{
+            "input": 8,
+            "interpolation": "LINEAR",
+            "output": 9
+        }],
+        "name": "All Animations"
+    }]
+}
